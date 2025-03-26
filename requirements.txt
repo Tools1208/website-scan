@@ -1,3 +1,5 @@
 requests
 beautifulsoup4
 colorama
+python-nmap
+sqlmap
