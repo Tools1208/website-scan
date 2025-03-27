@@ -1,12 +1,9 @@
 admin
 wp-admin
-phpmyadmin
 backup
 config
 robots.txt
-sitemap.xml
+.svn
 .git
-.htaccess
 uploads
-tmp
-vendor
+phpmyadmin
